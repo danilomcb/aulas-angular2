@@ -1,1 +1,1 @@
-Projeto com configurações básicas para uso do Angular 2.
+Exercicio sobre criação de templates com Angular 2.
