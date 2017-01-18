@@ -1,0 +1,23 @@
+<h1 class="jumbotron"> {{titulo}} </h1>
+
+<div [hidden] = "!formularioSubmetido">
+    {{usuario | json}}
+</div>
+<br/>
+
+<div [hidden] = "formularioSubmetido">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <input type="hidden" id="id" name="id" [(ngModel)]="usuario.id"/>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="nome" required [(ngModel)]="usuario.nome" #nome = "ngModel">
+            <div [hidden]="nome.valid" class="alert alert-danger"> Nome is required</div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" name="email" required [(ngModel)]="usuario.email" #email = "ngModel">
+            <div [hidden]="email.valid" class="alert alert-danger"> Email is required</div>
+        </div>
+        <button type="submit" class="btn btn-default" [disabled] = "!f.valid">Submit</button>
+    </form>
+</div>
