@@ -9,13 +9,13 @@ O exercio consiste em criar um sistema com os seguintes casos de uso:
   - Cadastro edição e remoção de filme
   - Dashbord com gráfico de filmes lançados no mês
 
-O sistema deve conter menus de navegação entre as páginas e opção de mudança de idioma.
+O sistema deve ter menus de navegação entre as páginas e opção de mudança de idioma.
 
 ### Tecnologias
 
 Devem ser utilizadas as seguintes :
 
-* [AngularJS]
-* [Twitter Bootstrap]
-* [Gulp]
+* [AngularJS 2](https://angular.io/)
+* [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+* [Gulp](http://gulpjs.com)
 * [Vraptor4](http://www.vraptor.org/) 
