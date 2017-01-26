@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'nav-bar',
-    templateUrl: 'nav.component.html'
+    templateUrl: 'app/core/nav/nav.component.html'
 })
 
 export class NavComponent implements OnInit {
