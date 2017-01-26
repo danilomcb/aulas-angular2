@@ -4,13 +4,14 @@
 import {NgModule, Optional, SkipSelf} from '@angular/core';
 import {CommonModule} from "@angular/common";
 
-import {NavComponent} from "./nav/nav.component";
 import {throwIfAlreadyLoaded} from "./module-import-guard";
+import {NavRightComponent} from "./nav/nav-right.component";
+import {NavTopComponent} from "./nav/nav-top.component";
 
 @NgModule({
     imports: [CommonModule],
-    exports: [NavComponent],
-    declarations: [NavComponent],
+    exports: [NavRightComponent, NavTopComponent],
+    declarations: [NavRightComponent, NavTopComponent],
     providers: [],
 })
 export class CoreModule {

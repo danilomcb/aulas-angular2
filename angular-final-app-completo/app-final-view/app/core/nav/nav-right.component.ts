@@ -5,11 +5,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'nav-bar',
-    templateUrl: 'app/core/nav/nav.component.html'
+    selector: 'nav-right',
+    templateUrl: 'app/core/nav/nav-right.component.html'
 })
 
-export class NavComponent implements OnInit {
+export class NavRightComponent implements OnInit {
     constructor() { }
 
     ngOnInit() { }
