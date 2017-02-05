@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: 'app/core/nav/nav-top.component.html'
 })
 export class NavTopComponent implements OnInit {
+
     constructor() { }
 
     ngOnInit() { }
